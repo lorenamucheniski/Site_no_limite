@@ -1,11 +1,13 @@
-body {
-    background-color: #ccc;
-}
-
-
-@media screen and (min-width: 576px) {
-    
+@media screen and (max-width: 724px) {
     body {
-        background-color: red;
+        background-color: #ccc;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
+
+
+    
+
+
 }
