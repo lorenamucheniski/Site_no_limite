@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-bebidas {
+        text-align: center;
+        background-color: #ffe940;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+
+    .section-bebidas ul {
+        list-style: none;
+    }
+
+}
