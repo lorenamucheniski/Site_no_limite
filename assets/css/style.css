@@ -15,7 +15,7 @@ body {
     .header {
         background-color: black;
         padding: 1px;
-        color: white;
+        color:  yellow;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -33,19 +33,23 @@ body {
         list-style: none;
     }
 
-    .header-nav ul:hover {
-        color: green;
+    .header-nav ul a:hover {
+        text-decoration: underline;
         cursor: pointer;
     }
 
-    .header-nav ul li a{
-        
+    .header-nav ul li a {
+        color: yellow;
+        text-decoration: none;        
     }
 
 
+    .section-apresentacao {
+        text-align: center;
+        background-color: yellow;
+        padding: 10px;
 
-
-
-
+        
+    }
 
 }
