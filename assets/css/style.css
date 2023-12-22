@@ -3,7 +3,7 @@ body {
 }
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 576px) {
     
     body {
         background-color: red;
