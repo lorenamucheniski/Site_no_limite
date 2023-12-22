@@ -6,6 +6,32 @@
         box-sizing: border-box;
     }
 
+    .header {
+        background-color: black;
+        padding: 1px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .header-nav ul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+    }
+
+    .header-nav ul li {
+        
+    }
+
+
 
 
 
