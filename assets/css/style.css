@@ -3,7 +3,7 @@ body {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 776px) {
     
     body {
         background-color: #ccc;
@@ -29,11 +29,16 @@ body {
     .header-nav ul {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
         list-style: none;
     }
 
-    .header-nav ul li {
+    .header-nav ul:hover {
+        color: green;
+        cursor: pointer;
+    }
+
+    .header-nav ul li a{
         
     }
 
