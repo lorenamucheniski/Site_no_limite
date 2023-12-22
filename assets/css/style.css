@@ -6,6 +6,13 @@ body {
 @media screen and (max-width: 576px) {
     
     body {
-        background-color: red;
+        background-color: #ccc;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
+
+
+
+
 }
