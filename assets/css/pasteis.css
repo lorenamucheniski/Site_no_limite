@@ -1,0 +1,15 @@
+@media screen and (max-width: 776px) { 
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-pasteis {
+        text-align: center;
+        background-color: #ffe940;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
