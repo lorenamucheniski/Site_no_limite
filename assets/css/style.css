@@ -1,3 +1,7 @@
+:root {
+    --header-and-footer:black ;
+}
+
 body {
     background-color: #ccc;
 }
@@ -13,7 +17,7 @@ body {
     }
 
     .header {
-        background-color: black;
+        background-color: var(--header-and-footer);
         padding: 15px;
         color:  yellow;
         display: flex;
@@ -55,13 +59,39 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        gap: 50px;
         font-weight: bold;
     } 
+
+
+    .section h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .section p {
+        font-size: 19px;
+    }
+
+   
     .card-comida {
         background-color: yellow;
-        width: 300px;
-        padding: 20px;
+        max-width: 280px;
+        padding: 30px;
         border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid red;
+    }
+
+    .card-comida h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
     }
 
     .card-comida button {
@@ -70,23 +100,45 @@ body {
         border-radius: 10px;
         color: white;
         border: none;
+        box-sizing: border-box;
+        margin-top: 10px;
     }
 
     .card-comida button a {
         color: white;
         text-decoration: none;
         font-size: 15px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-weight: bold;
     }
+
+    .card-comida button:hover {
+        box-shadow: 0px 0px 10px green;
+    } 
 
     .foto-pastel {
-        width: 150px;
-        height: 150px;
+        box-sizing: border-box;
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;    
     }
 
-    .bi-arrow-right {
-        font-size: 15px;
-        padding: 20px;
+    .bi {
+        font-size: 20px;
+        color: white;
     }
 
+
+
+    .footer {
+        padding: 1px;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        background-color: var(--header-and-footer);;
+    }
 
 } 
