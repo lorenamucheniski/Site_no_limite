@@ -30,6 +30,13 @@
         padding-top: 10px;
     }
 
+    .footer {
+        margin-top: 445px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-right: 15px;
+    }
     .voltar {
         display: flex;
         align-items: center;
