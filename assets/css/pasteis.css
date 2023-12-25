@@ -3,6 +3,8 @@
     body {
         margin: 0;
         padding: 0;
+        background-image: url(/assets/img/pastel_fundo.jpg);
+        
     }
     
     .header-pasteis {
