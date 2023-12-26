@@ -31,11 +31,21 @@
         padding: 5px 0px 5px 0px 0px;
         padding-bottom: 15px;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .section-bebidas li {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    h1 {
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        text-align: center;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        padding-top: 2px;
     }
      
     .voltar {
