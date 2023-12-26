@@ -65,8 +65,8 @@
         justify-content: left;
         left: 15px;
         margin: 0;
-        bottom: 0;
-        position: relative;
+        bottom: 10px;
+        position: fixed;
     }
 
     .voltar button {
