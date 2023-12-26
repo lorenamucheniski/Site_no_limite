@@ -15,11 +15,13 @@
         font-weight: bold;
     }
 
+    .section-pasteis {
+        background-color: rgb(0, 0, 0, 0.9);
+    }
     .section-pasteis ul {
         list-style: none;
         color: white;
         font-size: 18px;
-        background-color: rgb(0, 0, 0, 0.9);
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -27,4 +29,12 @@
     .section-pasteis li {
         padding: 10px;
     }
+
+    .adicionais {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
 }
