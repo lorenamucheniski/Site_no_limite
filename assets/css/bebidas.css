@@ -24,10 +24,10 @@
     .header-bebidas {
         text-align: center;
         background-color: #ffe940;
-        padding: 8px;
+        padding: 3px;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 20px;  
+        font-size: 18px;  
     }
 
     .section-bebidas {
@@ -49,15 +49,6 @@
     .section-bebidas li {
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-
-    h1 {
-        background-color: rgb(0, 0, 0, 0.9);
-        color: white;
-        text-align: center;
-        margin-top: -1px;
-        margin-bottom: -1px;
-        padding-top: 2px;
     }
      
     .voltar {
