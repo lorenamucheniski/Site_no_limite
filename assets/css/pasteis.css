@@ -56,8 +56,10 @@
         display: flex;
         align-items: center;
         justify-content: left;  
-        margin-top: 8px;
-        margin-left: 15px;  
+        left: 15px;
+        margin: 0;
+        bottom: 10px;
+        position: fixed;
     }
 
     .voltar button {

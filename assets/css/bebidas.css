@@ -50,12 +50,23 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    h2 {
+        color: white;
+        text-align: center;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        padding-top: 2px;
+    }
      
     .voltar {
         display: flex;
         align-items: center;
         justify-content: left;
-        margin-left: 15px;    
+        left: 15px;
+        margin: 0;
+        bottom: 10px;
+        position: fixed;
     }
 
     .voltar button {
