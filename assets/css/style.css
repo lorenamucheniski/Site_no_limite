@@ -129,16 +129,27 @@
         color: white;
     }
 
-    .footer {
+    .horarios h1, p {
         display: flex;
-        font-size: 15px;
+        align-items: center;
         flex-direction: column;
-        padding: 1px;
-        color: white;
-        text-align: center;
-        margin-top: 20px;
-        background-color: var(--header-and-footer);;
     }
+
+    .horarios ul {
+        list-style-type: circle;
+        font-weight: bold;
+    }
+
+    .horarios ul li {
+        padding-bottom: 8px;
+        color: green;
+        font-weight: bold;
+    }
+
+    #domingo-fechado  {
+        color: red;
+    }
+
 
     .ul-rede-social {
         display: flex;
@@ -147,5 +158,29 @@
         justify-content: end;
     }
 
+
+    .footer {
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        padding: 1px;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        background-color: var(--header-and-footer);
+    }
+
+   
+    .ul-rede-social {
+        list-style-type: none;
+        padding: 15px;
+    }
+    
+    .ul-rede-social a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+  
 
 } 
