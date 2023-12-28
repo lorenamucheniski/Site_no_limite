@@ -5,6 +5,7 @@
         padding: 0px;
         background-image: url(/assets/img/pastel_fundo.jpg);
         background-position: center bottom;
+        background-attachment: fixed;
         box-sizing: border-box;
     }
     header {
