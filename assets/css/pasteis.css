@@ -9,16 +9,11 @@
         box-sizing: border-box;
         background-repeat: no-repeat;
     }
-    header {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
 
     .header-pasteis {
-        text-align: center;
         background-color: #ffe940;
         padding: 3px;
+        text-align: center;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 18px;
@@ -37,13 +32,20 @@
         color: white;
         font-size: 18px;
         padding-top: 5px;
-        text-align: center;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:flex-end;
     }
 
     .section-pasteis li {
         padding: 10px;
-        border: 1px solid white;
-        border-radius: 5px;
+        border-bottom: 2px solid white;
+        width: 240px;
+    }
+
+    .section-pasteis span {
+        color: #ffe940;
     }
 
     .adicionais {
@@ -51,7 +53,7 @@
         color: white;
         font-weight: bold;
         text-decoration: underline;
-        font-size: 20px;
+        font-size: 25px;
     }
 
 
