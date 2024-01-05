@@ -44,6 +44,7 @@
         color: white;
         font-size: 18px;
         padding-top: 5px;
+        padding-bottom: 30px;
         text-align: left;
         display: flex;
         flex-wrap: wrap;
@@ -70,6 +71,7 @@
         margin: 0;
         bottom: 10px;
         position: fixed;
+        height: 50px;
     }
 
     .voltar button {
