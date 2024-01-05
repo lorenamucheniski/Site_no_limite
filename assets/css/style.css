@@ -168,6 +168,11 @@
         gap: 25px;
     }
 
+    .bi-whatsapp {
+        color: green;
+        font-weight: bold;
+    }
+
 
     .footer {
         display: flex;
