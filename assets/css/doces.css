@@ -28,7 +28,8 @@
     .voltar button {
         border: 2px solid red;
         background-color: yellow;
-        border-radius: 15px;
+        border-radius: 14px;
+
     }
 
     .voltar button a {
