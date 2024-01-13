@@ -20,42 +20,40 @@
     }
 
     .section-pasteis {
-        padding: 1px; /* Padding de 1px para acupar a tela toda...*/
         background-color: rgb(0, 0, 0, 0.9);
         padding-bottom: 10px;
         width: 100vw;
         height: 100vh;
-    }
-
-    .section-pasteis ul {
-        list-style: none;
-        color: white;
-        font-size: 18px;
-        padding-top: 5px;
-        text-align: left;
+        position: fixed;
         display: flex;
-        flex-wrap: wrap;
-        align-items:flex-end;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .section-pasteis li {
-        padding: 10px;
-        border-bottom: 2px solid white;
-        width: 240px;
+    table {
+        width: 70%;
+        margin-top: 30px;
+        border-collapse: collapse;
     }
 
-    .section-pasteis span {
-        color: #ffe940;
-    }
-
-    .adicionais {
-        text-align: center;
+    td {
         color: white;
-        font-weight: bold;
-        text-decoration: underline;
-        font-size: 25px;
+        border: 1px solid white;
+        border-radius: 2px;
+        padding: 5px;
     }
 
+    .precos {
+        text-align: center;
+    }
+
+    .table-adicionais {
+        width: 60%;
+    }
+
+    th {
+        color: white;
+    }
 
     /* Botão de voltar..*/
     
