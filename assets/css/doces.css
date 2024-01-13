@@ -3,6 +3,8 @@
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-family: 'Noto Serif Georgian', serif;
     }
 
     .header-doces {

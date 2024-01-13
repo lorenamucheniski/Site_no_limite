@@ -2,7 +2,7 @@
     --header-and-footer:black ;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani&display=swap');
+
 
 @media screen and (max-width: 1080px) {
     
@@ -12,6 +12,8 @@
         margin: 0;
         box-sizing: border-box;
         width: auto;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-family: 'Noto Serif Georgian', serif;
     }
 
     .header {
@@ -26,7 +28,7 @@
     
     .header h1 {
         font-size: 35px;
-        font-family: 'Bebas Neue', sans-serif;
+
     }
 
     .header-nav ul {

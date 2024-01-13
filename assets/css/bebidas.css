@@ -7,6 +7,8 @@
         background-attachment: fixed;
         width: 100%;
         height: 100%;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-family: 'Noto Serif Georgian', serif;
     }
 
     header {
