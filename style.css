@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani&display=swap');
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 776px) {
     
     body {
         background-image: url(./assets/img/fundo_main.jpg);

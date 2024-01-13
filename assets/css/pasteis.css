@@ -34,10 +34,10 @@
         width: 70%;
         margin-top: 30px;
         border-collapse: collapse;
+        color: white;
     }
 
     td {
-        color: white;
         border: 1px solid white;
         border-radius: 2px;
         padding: 5px;
@@ -49,10 +49,6 @@
 
     .table-adicionais {
         width: 60%;
-    }
-
-    th {
-        color: white;
     }
 
     /* Botão de voltar..*/
