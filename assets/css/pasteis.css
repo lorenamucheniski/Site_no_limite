@@ -8,6 +8,8 @@
         background-attachment: fixed;
         box-sizing: border-box;
         background-repeat: no-repeat;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-family: 'Noto Serif Georgian', serif;
     }
 
     .header-pasteis {
