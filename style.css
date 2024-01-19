@@ -4,28 +4,27 @@
 
 body {
     background-image: url(./assets/img/fundo_main.jpg);
+    width: auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: auto;
     font-family: 'Noto Sans Georgian', sans-serif;
     font-family: 'Noto Serif Georgian', serif;
 }
 
 .header {
     background-color: var(--header-and-footer);
-    padding: 15px;
     color: yellow;
+    padding: 15px;
+    font-size: 18px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 18px;
 }
 
 .header h1 {
     font-size: 35px;
     text-align: center;
-
 }
 
 .header-nav ul {
@@ -54,36 +53,35 @@ body {
 
 .section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     gap: 50px;
     font-weight: bold;
 }
 
-
 .section h2 {
+    padding-top: 30px;
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 30px;
 }
 
 .section p {
     font-size: 19px;
-    color: black;
     font-weight: bold;
+    color: black;
 }
 
 .card-comida {
     background-color: yellow;
     max-width: 280px;
     padding: 30px;
-    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border: 2px solid red;
+    border-radius: 8px;
 }
 
 .card-comida h1 {
@@ -96,24 +94,24 @@ body {
 
 .card-comida button {
     background-color: red;
-    border-radius: 10px;
     color: white;
+    margin-top: 10px;
     padding: 0;
+    border-radius: 10px;
     border: none;
     box-sizing: border-box;
-    margin-top: 10px;
 }
 
 .card-comida button a {
     color: white;
     text-decoration: none;
     font-size: 15px;
+    font-weight: bold;
     padding: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 15px;
-    font-weight: bold;
 }
 
 .card-comida button:hover {
@@ -122,16 +120,16 @@ body {
 
 .foto-pastel {
     box-sizing: border-box;
+    border-radius: 8px;
     width: 250px;
     height: 230px;
-    border-radius: 8px;
 }
 
 .foto-bebidas {
     box-sizing: border-box;
+    border-radius: 8px;
     width: 250px;
     height: 200px;
-    border-radius: 8px;
 }
 
 .bi {
@@ -146,22 +144,6 @@ p {
     flex-direction: column;
     color: white;
 }
-
-.horarios ul {
-    list-style-type: circle;
-    font-weight: bold;
-}
-
-.horarios ul li {
-    padding-bottom: 8px;
-    color: green;
-    font-weight: bold;
-}
-
-#domingo-fechado {
-    color: red;
-}
-
 
 .ul-rede-social {
     display: flex;
@@ -178,16 +160,15 @@ p {
 
 
 .footer {
-    display: flex;
-    font-size: 15px;
-    flex-direction: column;
-    padding: 1px;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
     background-color: var(--header-and-footer);
+    color: white;
+    margin-top: 20px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
 }
-
 
 .ul-rede-social {
     list-style-type: none;
